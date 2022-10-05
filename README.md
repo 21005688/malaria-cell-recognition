@@ -1,39 +1,39 @@
-Deep Neural Network for Malaria Infected Cell Recognition
+### Deep Neural Network for Malaria Infected Cell Recognition
 
 
-AIM:
+### AIM:
 To develop a deep neural network for Malaria infected cell recognition and to analyze the performance.
 
 Problem Statement and Dataset
 Neural Network Model
 Include the neural network model diagram.
 
-DESIGN STEPS
-STEP 1:
+### DESIGN STEPS
+### STEP 1:
 Download and load the dataset to colab. After that mount the drive in your colab workspace to access the dataset.
 
-STEP 2:
+### STEP 2:
 Use ImageDataGenerator to augment the data and flow the data directly from the dataset directory to the model.
 
-STEP 3:
+### STEP 3:
 Split the data into train and test.
 
-STEP 4:
+### STEP 4:
 Build the convolutional neural network
 
-STEP 5:
+### STEP 5:
 Train the model with training data
 
-STEP 6:
+### STEP 6:
 Evaluate the model with the testing data
 
-STEP 7:
+### STEP 7:
 Plot the performance plot
 
-PROGRAM
+### PROGRAM
 DEVELOPED BY : J.DEEPIKA.
 REGISTER NUMBER : 212221230016.
-
+~~~
 import os
 import pandas as pd
 import numpy as np
@@ -139,7 +139,7 @@ predictions = pred_probabilities > 0.5
 confusion_matrix(test_image_gen.classes,predictions)
 plt.imshow(predictions)
 print[predictions]
-
+~~~
 OUTPUT
 Training Loss, Validation Loss Vs Iteration Plot
 output
@@ -157,5 +157,5 @@ New Sample Data Prediction
 output![A4](https://user-images.githubusercontent.com/94747031/194058102-4c4b28ef-c589-4fb2-b1ca-ab0b526e5e06.png)
 
 
-RESULT
+### RESULT
 Successfully developed a convolutional deep neural network for Malaria Infected Cell Recognition.
